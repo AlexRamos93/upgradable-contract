@@ -1,7 +1,7 @@
 {
   "name": "upgradable-contract",
   "scripts": {
-    "test": "REPORT_GAS=true npx hardhat test",
+    "test": "npx hardhat test",
     "verify": "npx hardhat verify --network goerli",
     "deploy": "npx hardhat run scripts/deploy.ts --network goerli",
     "upgrade": "npx hardhat run scripts/upgrade.ts --network goerli"
